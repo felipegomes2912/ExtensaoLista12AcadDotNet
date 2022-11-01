@@ -1,0 +1,197 @@
+h1 {
+    border-top-width: thick;
+    border-top-style: dotted;
+    border-top-color: red;
+    border-left-width: thick;
+    border-left-style: outset;
+    border-left-color: blue;
+    border-right-width: thick;
+    border-right-style: dashed;
+    border-right-color: green;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+    padding: 15px;
+}
+
+#column1 {
+    float: left;
+    width: 33%;
+}
+
+#column2 {
+    float: left;
+    width: 33%;
+}
+
+#column3 {
+    float: left;
+    width: 33%;
+}
+
+#box1 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: greenyellow;
+}
+
+#box2 {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background-color: orange;
+}
+
+#box3 {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background-color: blue;
+}
+
+#box4 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: red;
+}
+
+#div1 {
+    background-color: red;
+    border: 1px solid black;
+    width: 99%;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+#div2 {
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: 99%;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+#div3 {
+    background-color: fuchsia;
+    border: 1px solid black;
+    width: 99%;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+#div4 {
+    background-color: gold;
+    border: 1px solid black;
+    width: 99%;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+#divEC {
+    background-color: red;
+    border: 1px solid black;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+#divEB {
+    background-color: greenyellow;
+    width: fit-content;
+    border: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    top: 3cm;
+}
+
+#divDC {
+    background-color: fuchsia;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 3cm;
+    left: 14.6cm;
+}
+
+#divDB {
+    background-color: gold;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 1px; 
+    left: 14.6cm;
+}
+
+#divEC2 {
+    background-color: red;
+    border: 1px solid black;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    border-radius: 100%;
+}
+
+#divEB2 {
+    background-color: greenyellow;
+    width: fit-content;
+    border: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    top: 3cm;
+    border-radius: 100%;
+}
+
+#divDC2 {
+    background-color: fuchsia;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 3cm;
+    left: 14.6cm;
+    border-radius: 100%;
+}
+
+#divDB2 {
+    background-color: gold;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 1px; 
+    left: 14.6cm;
+    border-radius: 100%;
+}
+
+#darksouls{
+    height: 330px;
+    width: 330px;
+}
+
+#textParaImagem{
+    float: right;
+    width: 30%;
+    text-align: left;
+}
+#divComImg{
+    width: 80%;
+    padding: 5px;
+    background-color: grey;
+}
+
+.itens{
+    color: yellow;
+    background-color: grey;
+}
